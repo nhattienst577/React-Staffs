@@ -120,10 +120,10 @@ function Record() {
     const randomNumber = parseInt(Math.random() * 100);
     const newStaff = {
       id: randomNumber,
-      name: "Name" + randomNumber,
+      name: "Name",
       age: randomNumber,
-      email: "Name" + randomNumber + "@gmail.com",
-      address: "Address" + randomNumber,
+      email: "Name@gmail.com",
+      address: "Address",
     };
     setDataSource((pre) => {
       return [...pre, newStaff];
