@@ -1,5 +1,5 @@
 import React from "react";
-import "antd/dist/antd.css";
+import "antd/dist/antd.min.css";
 import "../../App.css";
 import { Layout, Menu, Breadcrumb } from "antd";
 import { DatePicker } from "antd";
@@ -7,7 +7,7 @@ import Record from "./records";
 
 const { Header, Content, Footer } = Layout;
 
-function App() {
+function AppStaff() {
   return (
     <Layout className="layout">
       <Header>
@@ -40,4 +40,4 @@ function App() {
   );
 }
 
-export default App;
+export default AppStaff;

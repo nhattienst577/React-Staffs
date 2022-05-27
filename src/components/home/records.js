@@ -152,7 +152,7 @@ function Record() {
                       >
                         Update
                       </button>
-                      <button
+                      {/* <button
                         type="button"
                         className="btn btn-info me-3"
                         data-bs-toggle="modal"
@@ -160,7 +160,7 @@ function Record() {
                         onClick={() => fetchActors(id)}
                       >
                         Actors
-                      </button>
+                      </button> */}
                       <button
                         className="btn btn-danger"
                         onClick={() => deleteMovie(id)}
